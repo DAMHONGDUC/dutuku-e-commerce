@@ -1,6 +1,6 @@
-import 'package:dutuku_e_commerce/src/features/product/data/mapper/product_model_to_product_entity_mapper.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_data_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/domain.dart';
+import 'package:tuku_shop/src/features/product/data/mapper/product_model_to_product_entity_mapper.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_data_model.dart';
+import 'package:tuku_shop/src/features/product/domain/domain.dart';
 
 class ProductsDataModelToProductsDataEntityMapper {
   const ProductsDataModelToProductsDataEntityMapper._();

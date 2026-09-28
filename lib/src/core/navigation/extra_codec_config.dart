@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:dutuku_e_commerce/src/features/order/presentation/my_order/my_order_detail/my_order_detail_args.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/product_detail_args.dart';
+import 'package:tuku_shop/src/features/order/presentation/my_order/my_order_detail/my_order_detail_args.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/product_detail_args.dart';
 
 class ExtraCodecConfig extends Codec<Object?, Object?> {
   const ExtraCodecConfig();

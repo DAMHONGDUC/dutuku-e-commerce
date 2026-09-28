@@ -1,6 +1,6 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/data_sources/order_remote_data_source.dart';
-import 'package:dutuku_e_commerce/src/features/order/domain/domain.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/order/data/data_sources/order_remote_data_source.dart';
+import 'package:tuku_shop/src/features/order/domain/domain.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

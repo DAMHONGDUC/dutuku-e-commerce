@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/banner/domain/entities/banner_item.dart';
-import 'package:dutuku_e_commerce/src/features/banner/domain/repositories/banner_repository.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/banner/domain/entities/banner_item.dart';
+import 'package:tuku_shop/src/features/banner/domain/repositories/banner_repository.dart';
 
 class GetBannersUsecase implements UseCase<List<BannerItem>, NoParams> {
   final BannerRepository repository;

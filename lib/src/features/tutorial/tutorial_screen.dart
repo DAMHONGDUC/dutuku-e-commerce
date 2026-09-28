@@ -1,4 +1,4 @@
-import 'package:dutuku_e_commerce/src/di/injector.dart';
+import 'package:tuku_shop/src/di/injector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

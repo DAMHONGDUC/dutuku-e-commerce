@@ -1,4 +1,4 @@
-import 'package:dutuku_e_commerce/src/features/order/data/models/order_model.dart';
+import 'package:tuku_shop/src/features/order/data/models/order_model.dart';
 
 class OrdersDataModel {
   final List<OrderModel>? items;

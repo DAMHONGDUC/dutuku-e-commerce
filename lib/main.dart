@@ -1,7 +1,7 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:dutuku_e_commerce/main_material_app.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/di/injector.dart';
+import 'package:tuku_shop/main_material_app.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/di/injector.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:system_design_flutter/index.dart';
@@ -12,11 +12,11 @@ void main() async {
   await initialisation();
   final savedThemeMode = await AdaptiveTheme.getThemeMode();
 
-  runApp(DutukuECommerceApp(savedThemeMode: savedThemeMode));
+  runApp(TukuShopApp(savedThemeMode: savedThemeMode));
 }
 
-class DutukuECommerceApp extends StatelessWidget {
-  const DutukuECommerceApp({super.key, this.savedThemeMode});
+class TukuShopApp extends StatelessWidget {
+  const TukuShopApp({super.key, this.savedThemeMode});
   final AdaptiveThemeMode? savedThemeMode;
 
   @override

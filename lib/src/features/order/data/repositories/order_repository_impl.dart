@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/data_sources/order_remote_data_source.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/mapper/order_model_to_order_entity_mapper.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/mapper/orders_data_model_to_orders_data_entity_mapper.dart';
-import 'package:dutuku_e_commerce/src/features/order/domain/domain.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/order/data/data_sources/order_remote_data_source.dart';
+import 'package:tuku_shop/src/features/order/data/mapper/order_model_to_order_entity_mapper.dart';
+import 'package:tuku_shop/src/features/order/data/mapper/orders_data_model_to_orders_data_entity_mapper.dart';
+import 'package:tuku_shop/src/features/order/domain/domain.dart';
 
 class OrderRepositoryImpl implements OrderRepository {
   const OrderRepositoryImpl({required this.dataSource});

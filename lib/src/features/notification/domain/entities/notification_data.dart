@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/features/notification/domain/entities/notification_category_entity.dart';
-import 'package:dutuku_e_commerce/src/features/notification/domain/entities/notification_entity.dart';
+import 'package:tuku_shop/src/features/notification/domain/entities/notification_category_entity.dart';
+import 'package:tuku_shop/src/features/notification/domain/entities/notification_entity.dart';
 
 class NotificationData {
   final List<NotificationEntity> listNotification;

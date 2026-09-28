@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_size_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/product_size.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_size_model.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/product_size.dart';
 
 class ProductSizeModelToProductSizeEntityMapper {
   const ProductSizeModelToProductSizeEntityMapper._();

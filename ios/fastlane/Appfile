@@ -1,2 +1,2 @@
-app_identifier("flyd.dutuku.e-commerce")
+app_identifier("app.dd.tuku.shop")
 team_id(ENV["APPLE_TEAM_ID"])

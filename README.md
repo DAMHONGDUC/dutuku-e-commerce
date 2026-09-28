@@ -1,6 +1,21 @@
-# dutuku_e_commerce
+# Tuku Shop
 
-A Flutter e-commerce app, UI inspired by the [Kutuku Figma template](https://www.figma.com/design/MWXnUlavawxNQSMaYIsRRh/Kutuku----eCommerce-Mobile-App-UI-Kit-Figma-High-Quality-Template--Community-?node-id=0-1&p=f).
+A Flutter e-commerce app (*tuku* means "to buy" in Javanese), UI inspired by the [Kutuku Figma template](https://www.figma.com/design/MWXnUlavawxNQSMaYIsRRh/Kutuku----eCommerce-Mobile-App-UI-Kit-Figma-High-Quality-Template--Community-?node-id=0-1&p=f).
+
+## App Info
+
+| Item | Value |
+| --- | --- |
+| App name (display) | `Tuku Shop` |
+| Dart package (`pubspec.yaml`) | `tuku_shop` |
+| Melos workspace | `tuku_shop_workspace` |
+| iOS bundle id | `app.dd.tuku.shop` |
+| iOS test bundle id | `app.dd.tuku.shop.RunnerTests` |
+| Android applicationId | `com.dd.tuku.shop` |
+| Android namespace | `com.dd.tuku.shop` |
+| macOS bundle id | `app.dd.tuku.shop` |
+| Linux application id | `com.dd.tuku.shop` |
+| Firebase project id | `dutuku-e-commerce` (legacy, a Firebase project id cannot be renamed) |
 
 ## Tech Stack
 
@@ -135,7 +150,7 @@ Two GitHub Actions workflows under `.github/workflows/`:
 
 | Secret | Used by | Description |
 | --- | --- | --- |
-| `ANDROID_KEYSTORE_BASE64` | Android | `base64 android/app/dutuku-upload-keystore.jks` |
+| `ANDROID_KEYSTORE_BASE64` | Android | `base64 android/app/tuku-shop-upload-keystore.jks` |
 | `ANDROID_KEYSTORE_PASSWORD` | Android | `storePassword` from `android/key.properties` |
 | `ANDROID_KEY_PASSWORD` | Android | `keyPassword` from `android/key.properties` |
 | `ANDROID_KEY_ALIAS` | Android | `keyAlias` from `android/key.properties` |

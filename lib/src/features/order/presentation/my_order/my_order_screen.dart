@@ -1,6 +1,6 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/di/injector.dart';
-import 'package:dutuku_e_commerce/src/features/order/presentation/my_order/components/my_order_card.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/di/injector.dart';
+import 'package:tuku_shop/src/features/order/presentation/my_order/components/my_order_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:system_design_flutter/index.dart';

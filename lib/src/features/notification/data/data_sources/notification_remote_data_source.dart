@@ -1,7 +1,7 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/mock/notifications_mock.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/models/notification_category_model.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/models/notification_model.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/notification/data/mock/notifications_mock.dart';
+import 'package:tuku_shop/src/features/notification/data/models/notification_category_model.dart';
+import 'package:tuku_shop/src/features/notification/data/models/notification_model.dart';
 import 'package:system_design_flutter/index.dart';
 
 abstract class NotificationRemoteDataSource {

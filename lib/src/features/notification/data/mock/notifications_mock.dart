@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/models/notification_category_model.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/models/notification_model.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/notification/data/models/notification_category_model.dart';
+import 'package:tuku_shop/src/features/notification/data/models/notification_model.dart';
 import 'package:flutter/material.dart';
 import 'package:uuid/uuid.dart';
 
@@ -101,14 +101,14 @@ class NotificationsMock {
 
     // === Account notifications ===
     final accountTitles = [
-      'Welcome to Dutuku 🎉',
+      'Welcome to Tuku Shop 🎉',
       'Password Changed Successfully',
       'Verify Your Email Address',
       'Account Update Notice',
       'Security Alert',
     ];
     final accountBodies = [
-      'Thanks for joining Dutuku! Let’s start shopping!',
+      'Thanks for joining Tuku Shop! Let’s start shopping!',
       'Your password was changed successfully. If this wasn’t you, reset it now.',
       'Please verify your email to activate your account.',
       'We’ve updated our Terms of Service. Review them in your account settings.',

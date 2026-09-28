@@ -1,9 +1,9 @@
-import 'package:dutuku_e_commerce/src/features/banner/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/category/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/notification/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/order/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/profile/domain/domain.dart';
+import 'package:tuku_shop/src/features/banner/domain/domain.dart';
+import 'package:tuku_shop/src/features/category/domain/domain.dart';
+import 'package:tuku_shop/src/features/notification/domain/domain.dart';
+import 'package:tuku_shop/src/features/order/domain/domain.dart';
+import 'package:tuku_shop/src/features/product/domain/domain.dart';
+import 'package:tuku_shop/src/features/profile/domain/domain.dart';
 import 'package:mocktail/mocktail.dart';
 
 class MockGetBannersUsecase extends Mock implements GetBannersUsecase {}

@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:dutuku_e_commerce/src/features/product/data/models/review_comment_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/review_comment_model.dart';
 
 const kImgReviewPath = 'assets/images/review_comment/';
 const kVidReviewPath = 'assets/videos/review_comment/';

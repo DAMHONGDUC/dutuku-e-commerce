@@ -1,6 +1,6 @@
 {
-    "name": "dutuku_e_commerce",
-    "short_name": "dutuku_e_commerce",
+    "name": "Tuku Shop",
+    "short_name": "Tuku Shop",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

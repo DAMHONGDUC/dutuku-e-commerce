@@ -1,7 +1,7 @@
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/description.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/product_color.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/product_size.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/review_comment.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/description.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/product_color.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/product_size.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/review_comment.dart';
 import 'package:equatable/equatable.dart';
 
 class ProductEntity extends Equatable {

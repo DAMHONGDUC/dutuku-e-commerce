@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/core/resources/custom_theme_ext/app_color_theme_ext.dart';
-import 'package:dutuku_e_commerce/src/core/widgets/empty/empty_view.dart';
+import 'package:tuku_shop/src/core/resources/custom_theme_ext/app_color_theme_ext.dart';
+import 'package:tuku_shop/src/core/widgets/empty/empty_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

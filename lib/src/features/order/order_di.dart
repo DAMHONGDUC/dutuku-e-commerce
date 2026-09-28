@@ -1,9 +1,9 @@
-import 'package:dutuku_e_commerce/src/di/injector.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/data_sources/order_remote_data_source.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/repositories/order_repository_impl.dart';
-import 'package:dutuku_e_commerce/src/features/order/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/order/presentation/my_order/my_order_controller.dart';
-import 'package:dutuku_e_commerce/src/features/order/presentation/my_order/my_order_detail/my_order_detail_controller.dart';
+import 'package:tuku_shop/src/di/injector.dart';
+import 'package:tuku_shop/src/features/order/data/data_sources/order_remote_data_source.dart';
+import 'package:tuku_shop/src/features/order/data/repositories/order_repository_impl.dart';
+import 'package:tuku_shop/src/features/order/domain/domain.dart';
+import 'package:tuku_shop/src/features/order/presentation/my_order/my_order_controller.dart';
+import 'package:tuku_shop/src/features/order/presentation/my_order/my_order_detail/my_order_detail_controller.dart';
 
 class OrderDi {
   static config() {

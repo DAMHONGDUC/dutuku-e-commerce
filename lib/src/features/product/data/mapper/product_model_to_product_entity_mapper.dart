@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/product_entity.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_model.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/product_entity.dart';
 
 import 'description_model_to_description_entity_mapper.dart';
 import 'review_comment_model_to_review_comment_entity_mapper.dart';

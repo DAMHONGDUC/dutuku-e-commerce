@@ -1,7 +1,7 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/di/injector.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/config/product_routes.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/product_detail_args.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/di/injector.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/config/product_routes.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/product_detail_args.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

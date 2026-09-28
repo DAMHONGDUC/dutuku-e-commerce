@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/category/data/models/category_model.dart';
-import 'package:dutuku_e_commerce/src/features/category/data/repositories/category_repository_impl.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/category/data/models/category_model.dart';
+import 'package:tuku_shop/src/features/category/data/repositories/category_repository_impl.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

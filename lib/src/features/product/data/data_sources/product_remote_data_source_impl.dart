@@ -1,10 +1,10 @@
 import 'package:collection/collection.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_data_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/mock/product_mock.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/recommend_products_data_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/domain.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_data_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_model.dart';
+import 'package:tuku_shop/src/features/product/data/mock/product_mock.dart';
+import 'package:tuku_shop/src/features/product/data/models/recommend_products_data_model.dart';
+import 'package:tuku_shop/src/features/product/domain/domain.dart';
 import 'package:system_design_flutter/index.dart';
 
 import 'product_remote_data_source.dart';

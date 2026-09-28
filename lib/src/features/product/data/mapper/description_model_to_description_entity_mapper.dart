@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/features/product/data/models/description_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/description.dart';
+import 'package:tuku_shop/src/features/product/data/models/description_model.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/description.dart';
 
 class DescriptionModelToDescriptionEntityMapper {
   const DescriptionModelToDescriptionEntityMapper._();

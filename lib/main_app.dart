@@ -1,6 +1,6 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/core/l10n/app_localizations.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/core/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 
 class MainApp extends StatelessWidget {

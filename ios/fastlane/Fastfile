@@ -16,7 +16,7 @@ platform :ios do
       teamID: ENV["APPLE_TEAM_ID"],
       signingStyle: "manual",
       provisioningProfiles: {
-        "flyd.dutuku.e-commerce" => ENV["APPLE_PROVISIONING_PROFILE_NAME"],
+        "app.dd.tuku.shop" => ENV["APPLE_PROVISIONING_PROFILE_NAME"],
       },
     }
     export_options_path = File.join(FLUTTER_ROOT, "ios/ExportOptions.plist")
