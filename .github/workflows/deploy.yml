@@ -1,7 +1,7 @@
 name: Deploy
 
 # Manual trigger only — distributing a build is a deliberate action, not
-# something that should happen on every push. See README's "CI/CD" section
+# something that should happen on every push. See docs/ci-cd.md
 # for the full list of secrets each job needs.
 on:
   workflow_dispatch:
