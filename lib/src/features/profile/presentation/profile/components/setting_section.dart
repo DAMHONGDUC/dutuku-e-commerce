@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/features/profile/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/profile/presentation/profile/components/setting_card.dart';
+import 'package:tuku_shop/src/features/profile/domain/domain.dart';
+import 'package:tuku_shop/src/features/profile/presentation/profile/components/setting_card.dart';
 import 'package:flutter/material.dart';
 import 'package:system_design_flutter/index.dart';
 

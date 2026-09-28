@@ -1,9 +1,9 @@
-import 'package:dutuku_e_commerce/src/features/product/data/mock/product_description_mock.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/mock/review_comment_mock.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/description_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_color_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_size_model.dart';
+import 'package:tuku_shop/src/features/product/data/mock/product_description_mock.dart';
+import 'package:tuku_shop/src/features/product/data/mock/review_comment_mock.dart';
+import 'package:tuku_shop/src/features/product/data/models/description_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_color_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_size_model.dart';
 import 'package:system_design_flutter/index.dart';
 
 final kMockProductPath = 'assets/images/product/';

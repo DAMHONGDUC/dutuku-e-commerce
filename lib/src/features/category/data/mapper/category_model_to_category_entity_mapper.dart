@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/features/category/data/models/category_model.dart';
-import 'package:dutuku_e_commerce/src/features/category/domain/domain.dart';
+import 'package:tuku_shop/src/features/category/data/models/category_model.dart';
+import 'package:tuku_shop/src/features/category/domain/domain.dart';
 
 class CategoryModelToCategoryEntityMapper {
   const CategoryModelToCategoryEntityMapper._();

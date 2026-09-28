@@ -1,7 +1,7 @@
 name: Deploy
 
 # Manual trigger only — distributing a build is a deliberate action, not
-# something that should happen on every push. See README's "CI/CD" section
+# something that should happen on every push. See docs/ci-cd.md
 # for the full list of secrets each job needs.
 on:
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
         run: flutter pub get
 
       - name: Restore Android signing keystore
-        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > android/app/dutuku-upload-keystore.jks
+        run: echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > android/app/tuku-shop-upload-keystore.jks
 
       - name: Restore google-services.json
         run: echo "${{ secrets.ANDROID_GOOGLE_SERVICES_JSON_BASE64 }}" | base64 --decode > android/app/google-services.json
@@ -45,7 +45,7 @@ jobs:
           storePassword=${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           keyPassword=${{ secrets.ANDROID_KEY_PASSWORD }}
           keyAlias=${{ secrets.ANDROID_KEY_ALIAS }}
-          storeFile=dutuku-upload-keystore.jks
+          storeFile=tuku-shop-upload-keystore.jks
           EOF
 
       - name: Restore dart-define env file

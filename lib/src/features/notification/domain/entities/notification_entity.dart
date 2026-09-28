@@ -1,4 +1,4 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
+import 'package:tuku_shop/src/core/core.dart';
 
 class NotificationEntity {
   final String id;

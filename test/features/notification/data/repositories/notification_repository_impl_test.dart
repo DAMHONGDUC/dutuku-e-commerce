@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/models/notification_category_model.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/models/notification_model.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/repositories/notification_repository_impl.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/notification/data/models/notification_category_model.dart';
+import 'package:tuku_shop/src/features/notification/data/models/notification_model.dart';
+import 'package:tuku_shop/src/features/notification/data/repositories/notification_repository_impl.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

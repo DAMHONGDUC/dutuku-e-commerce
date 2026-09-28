@@ -8,7 +8,7 @@ plugins {
     id("com.google.gms.google-services")
 }
 
-val appId = "com.flyd.dutuku_e_commerce"
+val appId = "com.dd.tuku.shop"
 
 val keystoreProperties = Properties()
 val keystorePropertiesFile = rootProject.file("key.properties")

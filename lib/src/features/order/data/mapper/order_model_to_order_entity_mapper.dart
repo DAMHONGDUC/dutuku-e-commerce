@@ -1,10 +1,10 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/mapper/product_color_model_to_product_color_entity_mapper.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/mapper/product_size_model_to_product_size_entity_mapper.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/models/order_model.dart';
-import 'package:dutuku_e_commerce/src/features/order/domain/entities/order_entity.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/product_color.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/product_size.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/product/data/mapper/product_color_model_to_product_color_entity_mapper.dart';
+import 'package:tuku_shop/src/features/product/data/mapper/product_size_model_to_product_size_entity_mapper.dart';
+import 'package:tuku_shop/src/features/order/data/models/order_model.dart';
+import 'package:tuku_shop/src/features/order/domain/entities/order_entity.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/product_color.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/product_size.dart';
 
 class OrderModelToOrderEntityMapper {
   const OrderModelToOrderEntityMapper._();

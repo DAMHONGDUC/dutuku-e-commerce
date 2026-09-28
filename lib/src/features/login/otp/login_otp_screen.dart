@@ -1,4 +1,4 @@
-import 'package:dutuku_e_commerce/src/features/home/presentation/config/home_routes.dart';
+import 'package:tuku_shop/src/features/home/presentation/config/home_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

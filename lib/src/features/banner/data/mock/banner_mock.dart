@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/banner/data/models/banner_model.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/banner/data/models/banner_model.dart';
 
 final kMockBannerPath = 'assets/images/banner/';
 

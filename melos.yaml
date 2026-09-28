@@ -1,4 +1,4 @@
-name: dutuku_workspace
+name: tuku_shop_workspace
 
 packages:
   - .
@@ -42,7 +42,7 @@ scripts:
 
   gen:l10n:
     description: Generate localizations (app only).
-    run: dart run melos exec --scope=dutuku_e_commerce -- "flutter gen-l10n"
+    run: dart run melos exec --scope=tuku_shop -- "flutter gen-l10n"
 
   gen:build:
     description: Run build_runner in packages that depend on it.

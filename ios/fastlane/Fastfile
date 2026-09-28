@@ -7,8 +7,8 @@ IPA_OUTPUT_DIR = File.join(FLUTTER_ROOT, "build/ios/ipa")
 platform :ios do
   desc "Build a release IPA with Flutter and distribute it via Firebase App Distribution"
   desc ""
-  desc "Requires manual code signing to be configured via secrets — see README's"
-  desc "CI/CD section (APPLE_TEAM_ID, APPLE_PROVISIONING_PROFILE_NAME, plus the"
+  desc "Requires manual code signing to be configured via secrets — see docs/ci-cd.md"
+  desc "(APPLE_TEAM_ID, APPLE_PROVISIONING_PROFILE_NAME, plus the"
   desc "certificate/profile imported into the CI keychain before this lane runs)."
   lane :firebase_distribute do
     export_options = {
@@ -16,7 +16,7 @@ platform :ios do
       teamID: ENV["APPLE_TEAM_ID"],
       signingStyle: "manual",
       provisioningProfiles: {
-        "flyd.dutuku.e-commerce" => ENV["APPLE_PROVISIONING_PROFILE_NAME"],
+        "app.dd.tuku.shop" => ENV["APPLE_PROVISIONING_PROFILE_NAME"],
       },
     }
     export_options_path = File.join(FLUTTER_ROOT, "ios/ExportOptions.plist")
@@ -39,7 +39,7 @@ platform :ios do
       release_notes: ENV["RELEASE_NOTES"] || "Automated build from CI",
       ipa_path: ipa_path,
       # Auth is picked up automatically from either the FIREBASE_TOKEN or
-      # GOOGLE_APPLICATION_CREDENTIALS environment variable — see README.
+      # GOOGLE_APPLICATION_CREDENTIALS environment variable — see docs/ci-cd.md.
     )
   end
 end

@@ -1,14 +1,14 @@
-import 'package:dutuku_e_commerce/src/di/injector.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/data_sources/product_remote_data_source.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/data_sources/product_remote_data_source_impl.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/repositories/product_repository_impl.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/color_selection_section/color_selection_controller.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/product_detail_app_bar/product_detail_app_bar_controller.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/product_detail_controller.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/related_product_section/related_products_controller.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/recommend_products_section/recommend_products_controller.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/search_screen/search_controller.dart';
+import 'package:tuku_shop/src/di/injector.dart';
+import 'package:tuku_shop/src/features/product/data/data_sources/product_remote_data_source.dart';
+import 'package:tuku_shop/src/features/product/data/data_sources/product_remote_data_source_impl.dart';
+import 'package:tuku_shop/src/features/product/data/repositories/product_repository_impl.dart';
+import 'package:tuku_shop/src/features/product/domain/domain.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/color_selection_section/color_selection_controller.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/product_detail_app_bar/product_detail_app_bar_controller.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/product_detail_controller.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/related_product_section/related_products_controller.dart';
+import 'package:tuku_shop/src/features/product/presentation/recommend_products_section/recommend_products_controller.dart';
+import 'package:tuku_shop/src/features/product/presentation/search_screen/search_controller.dart';
 
 class ProductDi {
   static config() {

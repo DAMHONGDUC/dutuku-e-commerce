@@ -1,4 +1,4 @@
-import 'package:dutuku_e_commerce/src/features/product/presentation/widgets/product_card_skeleton.dart';
+import 'package:tuku_shop/src/features/product/presentation/widgets/product_card_skeleton.dart';
 import 'package:flutter/material.dart';
 
 class ProductGridSkeleton extends StatelessWidget {

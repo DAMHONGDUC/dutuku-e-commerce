@@ -1,9 +1,9 @@
 import 'package:collection/collection.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/mock/order_mock.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/models/order_model.dart';
-import 'package:dutuku_e_commerce/src/features/order/data/models/orders_data_model.dart';
-import 'package:dutuku_e_commerce/src/features/order/domain/entities/get_my_order_filter_params.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/order/data/mock/order_mock.dart';
+import 'package:tuku_shop/src/features/order/data/models/order_model.dart';
+import 'package:tuku_shop/src/features/order/data/models/orders_data_model.dart';
+import 'package:tuku_shop/src/features/order/domain/entities/get_my_order_filter_params.dart';
 import 'package:system_design_flutter/index.dart';
 
 abstract class OrderRemoteDataSource {

@@ -1,7 +1,7 @@
-import 'package:dutuku_e_commerce/src/features/product/data/models/description_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_color_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_size_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/review_comment_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/description_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_color_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_size_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/review_comment_model.dart';
 
 class ProductModel {
   final String? id;

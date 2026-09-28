@@ -1,5 +1,5 @@
 class AppConstants {
-  static const appName = 'Dutuku';
+  static const appName = 'Tuku Shop';
 }
 
 const kAssetsIconPath = 'assets/icons/';

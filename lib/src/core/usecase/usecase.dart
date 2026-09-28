@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:dutuku_e_commerce/src/core/failures/config_failures.dart';
+import 'package:tuku_shop/src/core/failures/config_failures.dart';
 import 'package:equatable/equatable.dart';
 
 abstract class UseCase<Type, Params> {

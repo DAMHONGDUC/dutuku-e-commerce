@@ -1,6 +1,6 @@
-import 'package:dutuku_e_commerce/src/features/product/data/mapper/product_model_to_product_entity_mapper.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/recommend_products_data_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/recommend_products_data.dart';
+import 'package:tuku_shop/src/features/product/data/mapper/product_model_to_product_entity_mapper.dart';
+import 'package:tuku_shop/src/features/product/data/models/recommend_products_data_model.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/recommend_products_data.dart';
 
 class RecommendProductsDataModelToRecommendProductsDataEntityMapper {
   const RecommendProductsDataModelToRecommendProductsDataEntityMapper._();

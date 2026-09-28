@@ -1,6 +1,6 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/notification/data/models/notification_model.dart';
-import 'package:dutuku_e_commerce/src/features/notification/domain/entities/notification_entity.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/notification/data/models/notification_model.dart';
+import 'package:tuku_shop/src/features/notification/domain/entities/notification_entity.dart';
 
 class NotificationModelToNotificationEntityMapper {
   const NotificationModelToNotificationEntityMapper._();

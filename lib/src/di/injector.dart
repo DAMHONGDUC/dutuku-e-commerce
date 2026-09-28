@@ -1,11 +1,11 @@
-import 'package:dutuku_e_commerce/src/features/banner/banner_di.dart';
-import 'package:dutuku_e_commerce/src/features/category/category_di.dart';
-import 'package:dutuku_e_commerce/src/features/notification/notification_di.dart';
-import 'package:dutuku_e_commerce/src/features/order/order_di.dart';
-import 'package:dutuku_e_commerce/src/features/product/product_di.dart';
-import 'package:dutuku_e_commerce/src/features/profile/profile_di.dart';
-import 'package:dutuku_e_commerce/src/features/splash/config/splash_di.dart';
-import 'package:dutuku_e_commerce/src/features/tutorial/config/tutorial_di.dart';
+import 'package:tuku_shop/src/features/banner/banner_di.dart';
+import 'package:tuku_shop/src/features/category/category_di.dart';
+import 'package:tuku_shop/src/features/notification/notification_di.dart';
+import 'package:tuku_shop/src/features/order/order_di.dart';
+import 'package:tuku_shop/src/features/product/product_di.dart';
+import 'package:tuku_shop/src/features/profile/profile_di.dart';
+import 'package:tuku_shop/src/features/splash/config/splash_di.dart';
+import 'package:tuku_shop/src/features/tutorial/config/tutorial_di.dart';
 import 'package:get_it/get_it.dart';
 
 final getIt = GetIt.instance;

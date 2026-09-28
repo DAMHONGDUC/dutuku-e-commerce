@@ -1,6 +1,6 @@
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_color_model.dart';
-import 'package:dutuku_e_commerce/src/features/product/data/models/product_size_model.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_color_model.dart';
+import 'package:tuku_shop/src/features/product/data/models/product_size_model.dart';
+import 'package:tuku_shop/src/core/core.dart';
 
 class OrderModel {
   final String? id;

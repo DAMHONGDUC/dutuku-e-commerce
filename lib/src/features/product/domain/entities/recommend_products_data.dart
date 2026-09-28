@@ -1,4 +1,4 @@
-import 'package:dutuku_e_commerce/src/features/product/domain/domain.dart';
+import 'package:tuku_shop/src/features/product/domain/domain.dart';
 
 class RecommendProductsData extends ProductsData {
   const RecommendProductsData({

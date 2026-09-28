@@ -1,6 +1,6 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/domain.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/product_detail/color_selection_section/color_selection_controller.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/product/domain/domain.dart';
+import 'package:tuku_shop/src/features/product/presentation/product_detail/color_selection_section/color_selection_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ionicons/ionicons.dart';

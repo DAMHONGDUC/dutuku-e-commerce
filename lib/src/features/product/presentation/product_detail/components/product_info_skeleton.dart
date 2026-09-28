@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/product/presentation/widgets/product_grid_skeleton.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/product/presentation/widgets/product_grid_skeleton.dart';
 import 'package:flutter/material.dart';
 import 'package:system_design_flutter/index.dart';
 

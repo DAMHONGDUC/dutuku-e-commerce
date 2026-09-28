@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/entities/recommend_products_data.dart';
-import 'package:dutuku_e_commerce/src/features/product/domain/repositories/product_repository.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/product/domain/entities/recommend_products_data.dart';
+import 'package:tuku_shop/src/features/product/domain/repositories/product_repository.dart';
 import 'package:equatable/equatable.dart';
 
 class GetRecommendProductUsecase

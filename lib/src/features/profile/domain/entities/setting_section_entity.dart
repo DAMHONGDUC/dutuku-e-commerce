@@ -1,5 +1,5 @@
-import 'package:dutuku_e_commerce/src/core/core.dart';
-import 'package:dutuku_e_commerce/src/features/profile/domain/entities/setting_item_entity.dart';
+import 'package:tuku_shop/src/core/core.dart';
+import 'package:tuku_shop/src/features/profile/domain/entities/setting_item_entity.dart';
 
 class SettingSectionEntity {
   final String name;
