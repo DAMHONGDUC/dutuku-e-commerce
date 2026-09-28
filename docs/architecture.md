@@ -31,7 +31,7 @@ flowchart LR
   featureA[featureA.domain] -->|shared concepts only| featureB[featureB.domain]
 ```
 
-A feature exposes only its `domain/domain.dart` barrel.
+A feature exposes only its `domain/domain.dart` barrel, except to the presentation-only `home/` and `bottom_tab/`, which compose other features' sections.
 
 ## Data flow
 
