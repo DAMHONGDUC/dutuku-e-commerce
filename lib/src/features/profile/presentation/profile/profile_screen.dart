@@ -449,7 +449,7 @@ class _MemberCard extends StatelessWidget {
         children: [
           identity,
           SdVerticalSpacingV5(value: SdSpacingV5.s16),
-          Divider(height: 1, color: ink.withValues(alpha: 0.12)),
+          SdDividerV5(color: ink.withValues(alpha: 0.12)),
           SdVerticalSpacingV5(value: SdSpacingV5.s8),
           Row(
             children: [
@@ -782,8 +782,7 @@ class _Group extends StatelessWidget {
       child: Column(
         children: [
           for (var i = 0; i < children.length; i++) ...[
-            if (i > 0)
-              Divider(height: 1, indent: 56, color: colors.borderDefault),
+            if (i > 0) SdDividerV5(indent: 56, color: colors.borderDefault),
             children[i],
           ],
         ],

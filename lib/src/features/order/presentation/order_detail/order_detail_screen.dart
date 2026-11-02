@@ -244,7 +244,7 @@ class _Body extends StatelessWidget {
                 '${order.paymentMethod} · ${order.shippingMethod}',
                 style: value,
               ),
-              Divider(height: SdSpacingV5.s24, color: colors.borderDefault),
+              SdDividerV5(height: SdSpacingV5.s24, color: colors.borderDefault),
               _row(
                 context,
                 context.loc.cart_subtotal,

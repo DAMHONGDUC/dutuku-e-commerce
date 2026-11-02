@@ -113,7 +113,7 @@ class ListSkeleton extends StatelessWidget {
       children: [
         for (var i = 0; i < rows; i++) ...[
           if (i > 0 && card) SdVerticalSpacingV5(value: SdSpacingV5.s12),
-          if (i > 0 && divided) Divider(height: 1, color: colors.borderDefault),
+          if (i > 0 && divided) SdDividerV5(color: colors.borderDefault),
           row(i),
         ],
       ],

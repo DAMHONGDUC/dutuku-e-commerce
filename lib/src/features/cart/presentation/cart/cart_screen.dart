@@ -105,8 +105,7 @@ class _CartBody extends StatelessWidget {
             children: [
               for (var i = 0; i < state.lines.length; i++) ...[
                 if (i > 0)
-                  Divider(
-                    height: 1,
+                  SdDividerV5(
                     indent: SdSpacingV5.s16,
                     endIndent: SdSpacingV5.s16,
                     color: colors.borderDefault,

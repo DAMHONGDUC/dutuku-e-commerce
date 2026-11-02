@@ -578,7 +578,7 @@ class _SummarySection extends StatelessWidget {
                 : AppFormat.price(t.shippingFee),
             color: t.shippingFee == 0 ? colors.success : null,
           ),
-          Divider(color: colors.borderDefault),
+          SdDividerV5(height: SdSpacingV5.s16, color: colors.borderDefault),
           SdVerticalSpacingV5(value: SdSpacingV5.s4),
           row(context.loc.cart_total, AppFormat.price(t.total), bold: true),
         ],

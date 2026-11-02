@@ -67,8 +67,7 @@ class _View extends StatelessWidget {
                   bottom: FloatingBottomNav.contentInset(context),
                 ),
                 itemCount: state.conversations.length,
-                separatorBuilder: (_, _) => Divider(
-                  height: 1,
+                separatorBuilder: (_, _) => SdDividerV5(
                   indent: SdSpacingV5.s16 + SdSpacingV5.s48 + SdSpacingV5.s12,
                   color: colors.borderDefault,
                 ),

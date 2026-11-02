@@ -402,8 +402,7 @@ class _CategoriesTab extends StatelessWidget {
             bottom: BottomActionBar.bottomGap(context) + SdSpacingV5.s16,
           ),
           itemCount: state.items.length,
-          separatorBuilder: (_, _) => Divider(
-            height: 1,
+          separatorBuilder: (_, _) => SdDividerV5(
             indent: SdSpacingV5.s16 + SdSpacingV5.s48 + SdSpacingV5.s12,
             color: colors.borderDefault,
           ),
