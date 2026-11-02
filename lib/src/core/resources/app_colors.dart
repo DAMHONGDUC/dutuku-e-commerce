@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 /// Raw palette: white page, soft grey cards, ink type and the brand purple
 /// of the app icon. Screens read the themed roles in `context.colorTheme`,

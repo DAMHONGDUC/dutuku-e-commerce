@@ -2,7 +2,7 @@ import 'dart:math' as math;
 import 'dart:ui' show ImageFilter;
 
 import 'package:flutter/material.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 import 'package:tuku_shop/src/core/core.dart';
 
 /// One tab of [FloatingBottomNav].

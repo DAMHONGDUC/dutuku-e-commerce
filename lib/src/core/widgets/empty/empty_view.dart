@@ -1,6 +1,6 @@
 import 'package:tuku_shop/src/core/resources/resources.dart';
 import 'package:flutter/material.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 class EmptyView extends StatelessWidget {
   final String message;

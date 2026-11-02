@@ -3,7 +3,7 @@ import 'package:tuku_shop/src/core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:system_design/index.dart' hide SdContextV2X;
+import 'package:system_design_v5/v5.dart';
 
 import 'banner_carousel_controller.dart';
 

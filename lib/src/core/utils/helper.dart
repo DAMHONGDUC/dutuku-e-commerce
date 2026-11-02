@@ -1,6 +1,6 @@
 import 'package:tuku_shop/src/core/core.dart';
 import 'package:flutter/widgets.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 class Helper {
   static getSdButtonColorConfig(BuildContext context) =>

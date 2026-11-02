@@ -1,4 +1,4 @@
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 class PreviewMediaArgs {
   final List<SdPreviewMediaConfigV5> items;

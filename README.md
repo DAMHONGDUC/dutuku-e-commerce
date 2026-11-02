@@ -31,7 +31,7 @@
 | State management | flutter_bloc (Cubit) | 9.1.1 |
 | Backend | None; feature data comes from `data/mock/` | - |
 | Local DB | None | - |
-| Special libraries | `system_design` v5 (in-house design system, `flutter-system-design-kit` git submodule) | pinned by commit |
+| Special libraries | `system_design_core` + `system_design_v5` (in-house design system, `flutter-system-design-kit` git submodule) | pinned by commit |
 
 ## Project architecture
 

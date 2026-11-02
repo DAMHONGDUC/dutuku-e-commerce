@@ -3,7 +3,7 @@ import 'package:tuku_shop/src/features/category/presentation/widgets/category_ca
 import 'package:tuku_shop/src/features/category/presentation/widgets/category_card_skeleton.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 import 'categories_section_controller.dart';
 

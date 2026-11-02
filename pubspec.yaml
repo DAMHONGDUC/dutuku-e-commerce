@@ -14,8 +14,12 @@ dependencies:
     sdk: flutter
   intl: ^0.20.2
   dartz: ^0.10.1
-  system_design:
-    path: packages/flutter-system-design-kit
+  # The shared design system — core and the v5 generation only: each generation
+  # is its own package, so this app resolves no other generation's dependencies.
+  system_design_core:
+    path: packages/flutter-system-design-kit/packages/system_design_core
+  system_design_v5:
+    path: packages/flutter-system-design-kit/packages/system_design_v5
   cupertino_icons: ^1.0.8
   go_router: ^15.1.2
   flutter_bloc: ^9.1.1

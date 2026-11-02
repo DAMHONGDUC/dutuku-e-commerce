@@ -1,7 +1,7 @@
 import 'package:tuku_shop/src/core/core.dart';
 import 'package:tuku_shop/src/features/product/domain/domain.dart';
 import 'package:flutter/material.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 const _kAssetsReviewSize = 100.0;
 

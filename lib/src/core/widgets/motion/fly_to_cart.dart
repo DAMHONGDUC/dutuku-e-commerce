@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 import 'package:tuku_shop/src/core/core.dart';
 
 /// A product photo that arcs from where it was added into the cart button

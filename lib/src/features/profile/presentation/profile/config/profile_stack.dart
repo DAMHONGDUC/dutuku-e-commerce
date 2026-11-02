@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 import 'package:tuku_shop/src/core/core.dart';
 import 'package:tuku_shop/src/features/order/presentation/my_orders/config/my_order_stack.dart';
 import 'package:tuku_shop/src/features/profile/presentation/edit_profile/edit_profile_screen.dart';

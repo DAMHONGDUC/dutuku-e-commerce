@@ -8,7 +8,7 @@ import 'package:tuku_shop/src/features/splash/splash_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 /// The one-off entrance: bag, handle, letter, name, tagline, loader. It
 /// ends before [SplashController]'s 1 s minimum, so it always plays out.

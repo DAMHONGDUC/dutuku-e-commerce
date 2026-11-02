@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
 import 'package:flutter/services.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 import 'package:tuku_shop/src/core/core.dart';
 
 /// A row that slides left to reveal one destructive action behind it. A

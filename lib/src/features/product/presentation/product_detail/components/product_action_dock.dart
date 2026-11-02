@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 import 'package:tuku_shop/src/core/core.dart';
 import 'package:tuku_shop/src/features/product/domain/domain.dart';
 import 'package:tuku_shop/src/features/product/presentation/favorites/favorites_controller.dart';

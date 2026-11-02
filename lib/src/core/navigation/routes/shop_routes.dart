@@ -1,4 +1,4 @@
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 /// A shop's page, above the tabs; any feature can open it by seller id.
 class ShopRoutes {

@@ -3,6 +3,8 @@ name: tuku_shop_workspace
 packages:
   - .
   - packages/*
+  # The design kit's per-generation packages, so bootstrap resolves and analyze checks each.
+  - packages/flutter-system-design-kit/packages/*
 
 command:
   bootstrap:

@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 import 'package:tuku_shop/src/features/product/presentation/product_detail/product_detail_args.dart';
 

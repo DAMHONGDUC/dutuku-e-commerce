@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 import '../tutorial_screen.dart';
 import 'package:tuku_shop/src/core/navigation/routes/tutorial_routes.dart';

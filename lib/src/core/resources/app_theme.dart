@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 import 'custom_theme_ext/app_color_theme_ext.dart';
 import 'custom_theme_ext/app_text_theme_ext.dart';
 

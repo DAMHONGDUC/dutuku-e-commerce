@@ -1,4 +1,4 @@
-import 'package:system_design/index.dart';
+import 'package:system_design_v5/v5.dart';
 
 /// The Chat tab and one thread, which any feature can open by peer id: a
 /// seller id, or [supportPeerId] for the marketplace's own support desk.
