@@ -55,3 +55,19 @@ flowchart TD
   MyOrderController --> GetMyOrderUsecase
   OrderRepository -.implemented by.-> OrderRepositoryImpl
 ```
+
+### Combo commands
+
+Dev first, then prod. `&&` stops at the first step that fails.
+
+Backend and iOS:
+
+```sh
+make deploy-be-dev && make release-ios-dev && make deploy-be-prod && make release-ios-prod
+```
+
+Android:
+
+```sh
+make release-android-dev && make release-android-prod
+```
