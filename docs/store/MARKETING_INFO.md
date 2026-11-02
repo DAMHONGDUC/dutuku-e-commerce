@@ -26,7 +26,7 @@ Values no file in the project holds. Each one is a `TODO(owner)` further down, i
 |---|---|
 | `assets/marketing/tuku-shop-video-1920x1080.mp4` | YouTube upload (D), Upwork video (E6) |
 | `assets/marketing/tuku-shop-youtube-thumbnail-1280x720.png` | YouTube thumbnail (D4) |
-| `assets/marketing/tuku-shop-upwork-cover-1600x1200.png` | Upwork cover (E5) |
+| `assets/marketing/tuku-shop-upwork-cover-1000x750.png` | Upwork cover (E5) |
 | `assets/images/app_icon.png` | Google Play app icon (C19), scaled to 512 x 512 |
 | `screenshots/` | Simulator captures for review; not store-sized |
 
@@ -528,7 +528,7 @@ Flutter, Figma
 
 ### E5. Content — cover image
 ```text
-assets/marketing/tuku-shop-upwork-cover-1600x1200.png
+assets/marketing/tuku-shop-upwork-cover-1000x750.png
 ```
 
 ### E6. Content — video

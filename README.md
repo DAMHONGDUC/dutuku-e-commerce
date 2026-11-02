@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | Overview | Flutter e-commerce shopping app (*tuku* = "to buy" in Javanese), UI based on the [Kutuku Figma template](https://www.figma.com/design/MWXnUlavawxNQSMaYIsRRh/Kutuku----eCommerce-Mobile-App-UI-Kit-Figma-High-Quality-Template--Community-?node-id=0-1&p=f) |
-| Demo | [Product film](assets/marketing/tuku-shop-video-1920x1080.mp4) (dark mode, 1080p 60 fps) · [YouTube thumbnail](assets/marketing/tuku-shop-youtube-thumbnail-1280x720.png) · [Upwork cover](assets/marketing/tuku-shop-upwork-cover-1600x1200.png) |
+| Demo | [Product film](assets/marketing/tuku-shop-video-1920x1080.mp4) (dark mode, 1080p 60 fps) · [YouTube thumbnail](assets/marketing/tuku-shop-youtube-thumbnail-1280x720.png) · [Upwork cover](assets/marketing/tuku-shop-upwork-cover-1000x750.png) |
 | Last edit | 2026-10-27 |
 | Author | Dam Hong Duc |
 
