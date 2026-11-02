@@ -62,7 +62,7 @@ class AppColorThemeExt extends ThemeExtension<AppColorThemeExt> {
   });
 
   // Light theme: white page, soft grey cards, brand purple CTAs.
-  // Palette documented in docs/full-shop-flow-plan.md ("Premium refresh").
+  // Palette documented in docs/plans/full-shop-flow-plan.md ("Premium refresh").
   static AppColorThemeExt light() {
     const shadow = Color(0xFF28265A);
     return AppColorThemeExt(

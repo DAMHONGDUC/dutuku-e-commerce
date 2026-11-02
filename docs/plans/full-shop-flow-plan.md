@@ -24,8 +24,8 @@ Turn Tuku Shop into a working clothing-store demo for client review: browse → 
 | Every section has its own skeleton, empty state and error + Retry | Partial failure stays visible and recoverable | `presentation/<screen>/<section>/` |
 | Lists page 10 items and load more on scroll | First rows show after one short wait, not after the whole list | `SdListViewLoadMoreV5` / grid equivalent |
 | Mock catalog is deterministic (fixed ids, a seeded `Random` per mock file) | The client sees the same app on every launch | `product/data/mock/` |
-| No feature imports another feature's `data/` | Architecture rule; fixes current `order_mock.dart` → `product_mock.dart` import | `docs/claude/architecture.md` |
-| Screens follow the approved mockups from phase 2 (`mobile-app-ui-design` skill) | Polished, consistent demo for the client | `docs/design/` |
+| No feature imports another feature's `data/` | Architecture rule; fixes current `order_mock.dart` → `product_mock.dart` import | `docs/rules/architecture.md` |
+| Screens follow the approved mockups from phase 2 (`mobile-app-ui-design` skill) | Polished, consistent demo for the client | `docs/plans/design/` |
 | UI uses design-kit V5 only; a missing V5 widget is cloned into `lib/src/core/widgets/` from V5 tokens, never imported from V2/V3/V4 | One generation, consistent look | `lib/src/core/widgets/navigation/` |
 | UI strings go through ARB (en + vi); catalog content stays English | Matches the existing l10n setup | `lib/src/core/l10n/` |
 
@@ -239,11 +239,11 @@ Every screen is redesigned with the `mobile-app-ui-design` skill before it is co
 
 | Item | Choice |
 |---|---|
-| Format | HTML mockups at 375 pt width (skill baseline), one page per flow, in `docs/design/` |
+| Format | HTML mockups at 375 pt width (skill baseline), one page per flow, in `docs/plans/design/` |
 | Review | Published as a private Artifact so the owner (and the client, if shared) can comment |
 | Images | Real catalog photos from phase 1, so mockups match the shipped app |
 | Gate | Phases 3–9 build screens to the approved mockups; changes go back to the mockup first |
-| Source | [`docs/design/tuku-shop-mockups.html`](design/tuku-shop-mockups.html) (images in `docs/design/img/`), published as Artifact `https://claude.ai/artifact/73W1w6xh7Q7kVWCyEDurMm` |
+| Source | [`docs/plans/design/tuku-shop-mockups.html`](design/tuku-shop-mockups.html) (images in `docs/plans/design/img/`), published as Artifact `https://claude.ai/artifact/73W1w6xh7Q7kVWCyEDurMm` |
 | Palette (premium refresh, replaces the v1 indigo) | See [Premium refresh](#premium-refresh) |
 
 ### Premium refresh
@@ -283,14 +283,14 @@ Each phase is one PR, ends with `fvm dart run melos run analyze` clean and its t
 |---|---|---|---|
 | 0 · Foundations | `MockLatency` (1 s) in every data source; drop controller delays; route constants to core; fix `order_mock` cross-feature import; seeded random | `core/constants/`, `core/navigation/routes/`, all `*_data_source*.dart` | Data source tests assert ~1 s latency with `fakeAsync` |
 | 1 · Catalog & images | Manifest + fetch script; new categories, products, banners; product model fields; remove old assets | `tool/`, `assets/images/`, `category/data/mock/`, `product/data/` | Mock integrity test: every asset path in mocks exists in `pubspec` assets |
-| 2 · UI design | Run the `mobile-app-ui-design` skill: design language mapped to V5 tokens, HTML mockups of every screen in [UI redesign](#ui-redesign), published as a private Artifact for review; coding of later phases starts only after approval | `docs/design/` | — (design review gate) |
+| 2 · UI design | Run the `mobile-app-ui-design` skill: design language mapped to V5 tokens, HTML mockups of every screen in [UI redesign](#ui-redesign), published as a private Artifact for review; coding of later phases starts only after approval | `docs/plans/design/` | — (design review gate) |
 | 3 · Browse | `FloatingBottomNav` (V5 clone of the V3 bar) with the 5 tabs (Wishlist / Cart show an empty state until phases 4–5), Categories tab, category products (sort/filter/paged), home sections, search upgrade, PDP gallery + variant picker + paged reviews; Home, PDP and Search rebuilt to the approved mockups | `category/`, `product/`, `home/`, `core/widgets/` | Usecases, repos, Cubits (`bloc_test`) incl. load-more |
 | 4 · Wishlist | Feature + heart on cards + tab | `wishlist/` | Toggle, stream, persistence |
 | 5 · Cart | Feature, add-to-cart sheet, badge, cart screen | `cart/`, `product/.../bottom_action_section.dart` | Add / merge same variant / qty bounds / stock |
 | 6 · Checkout & address | Address CRUD, checkout sections, voucher, place order, success (the peak moment) | `checkout/`, `address/`, `order/` | Totals math, voucher rules, cart cleared after order |
 | 7 · Orders & notifications | Paged status tabs, visual timeline, cancel, buy again, notification on order events; Orders and Notifications rebuilt to the mockups | `order/`, `notification/` | Status transitions, counters |
 | 8 · Profile & settings | Header, edit profile, theme, language (en/vi), reset demo data; Profile and Login rebuilt to the mockups | `profile/`, `auth/` | Reset clears every store back to seed |
-| 9 · Polish & demo script | Design QA of every screen against its mockup, empty / error states review, snackbars, screenshots, demo walkthrough in `docs/screenshots.md` | all | Full `melos run test` |
+| 9 · Polish & demo script | Design QA of every screen against its mockup, empty / error states review, snackbars, screenshots, demo walkthrough in `docs/status/screenshots.md` | all | Full `melos run test` |
 
 ## Mock business rules
 

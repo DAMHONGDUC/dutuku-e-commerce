@@ -4,8 +4,8 @@
 
 | Workflow | Trigger | Steps |
 |---|---|---|
-| [ci.yml](../.github/workflows/ci.yml) | Push / PR to `main` | `melos bootstrap` → `melos run analyze` → `melos run test` (no secrets) |
-| [deploy.yml](../.github/workflows/deploy.yml) | Manual (`workflow_dispatch`) | Restore signing/config files from secrets → Fastlane → Firebase App Distribution |
+| [ci.yml](../../.github/workflows/ci.yml) | Push / PR to `main` | `melos bootstrap` → `melos run analyze` → `melos run test` (no secrets) |
+| [deploy.yml](../../.github/workflows/deploy.yml) | Manual (`workflow_dispatch`) | Restore signing/config files from secrets → Fastlane → Firebase App Distribution |
 
 | Job | Status |
 |---|---|

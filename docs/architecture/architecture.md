@@ -1,6 +1,6 @@
 # Architecture
 
-Feature-based Clean Architecture: each feature owns its `domain` / `data` / `presentation` slice under [lib/src/features/](../lib/src/features/).
+Feature-based Clean Architecture: each feature owns its `domain` / `data` / `presentation` slice under [lib/src/features/](../../lib/src/features/).
 
 ## Folders
 
