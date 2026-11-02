@@ -1,6 +1,6 @@
 # Melos workspace
 
-The app (root) and every package under `packages/` form one [Melos](https://melos.invertase.dev) workspace; scripts live in [melos.yaml](../../melos.yaml).
+The app (root), every package under `packages/` and the design kit's packages under `packages/flutter-system-design-kit/packages/` form one [Melos](https://melos.invertase.dev) workspace; scripts live in [melos.yaml](../../melos.yaml).
 
 ## Scripts
 
@@ -22,10 +22,15 @@ Prefix every script with `fvm dart run` (melos is a dev dependency).
 
 ## Design-system submodule
 
-`packages/system_design_flutter` is versioned by its commit pointer; melos versioning/publishing is not used.
+| | |
+|---|---|
+| Versioning | Commit pointer of `packages/flutter-system-design-kit`; no melos versioning or publishing |
+| App depends on | `system_design_core` + `system_design_v5`, never the umbrella `system_design` |
+
+## Bump the kit
 
 | # | Step |
 |---|---|
-| 1 | `git submodule update --remote packages/system_design_flutter` |
+| 1 | `git submodule update --remote packages/flutter-system-design-kit` |
 | 2 | Verify the app builds |
-| 3 | `git add packages/system_design_flutter` and commit the new pointer |
+| 3 | `git add packages/flutter-system-design-kit` and commit the new pointer |
