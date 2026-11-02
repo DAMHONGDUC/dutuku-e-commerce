@@ -17,6 +17,7 @@
 | Screen folder: `<screen>_screen.dart`, `<screen>_controller.dart`, `<screen>_state.dart`, `components/`, `config/` | Predictable screen layout | `presentation/my_order/` |
 | Routes are `SdRouterV5` constants in `lib/src/core/navigation/routes/<screen>_routes.dart`; the screen's `config/<screen>_stack.dart` builds the `GoRoute` | Any feature can navigate without importing another feature's `presentation/` | `MyOrderRoutes.myOrder` |
 | A route's `extra` is a plain value or an args class with `toJson` handled in `ExtraCodecConfig`; screens load entities themselves (by id or the current user) | go_router encodes `extra` on every navigation; the codec skips anything else | `EditProfileScreen` loads the signed-in user |
+| Depend on `system_design_core` + `system_design_v5`; import `package:system_design_v5/v5.dart` (re-exports core), never the umbrella `package:system_design/` | The umbrella resolves every other generation's dependencies | `pubspec.yaml` |
 | Cross-cutting code goes in `lib/src/core/` (constants, enums, l10n, navigation, resources, widgets) | No business logic in core | `lib/src/core/core.dart` |
 
 ## Never
