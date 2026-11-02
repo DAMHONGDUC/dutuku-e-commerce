@@ -22,7 +22,12 @@ Prefix every script with `fvm dart run` (melos is a dev dependency).
 
 ## Design-system submodule
 
-`packages/flutter-system-design-kit` is versioned by its commit pointer; melos versioning/publishing is not used. The app depends on `system_design_core` and `system_design_v5`, never on the umbrella `system_design`.
+| | |
+|---|---|
+| Versioning | Commit pointer of `packages/flutter-system-design-kit`; no melos versioning or publishing |
+| App depends on | `system_design_core` + `system_design_v5`, never the umbrella `system_design` |
+
+## Bump the kit
 
 | # | Step |
 |---|---|

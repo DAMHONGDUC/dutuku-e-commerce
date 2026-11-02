@@ -41,7 +41,10 @@ flowchart LR
   featureA[featureA.domain] -->|shared concepts only| featureB[featureB.domain]
 ```
 
-A feature exposes only its `domain/domain.dart` barrel, except to the presentation-only `home/` and `bottom_tab/`, which compose other features' sections. Cross-feature navigation uses the route helpers in `core/navigation/routes/` (query parameters, no argument classes).
+| Crossing features | Rule |
+|---|---|
+| Imports | Only the other feature's `domain/domain.dart` barrel; `home/` and `bottom_tab/` may also import its section widgets |
+| Navigation | `SdRouterV5` route constants in `core/navigation/routes/`; `extra` is a plain value or an args class handled in `ExtraCodecConfig` |
 
 ## Data flow
 

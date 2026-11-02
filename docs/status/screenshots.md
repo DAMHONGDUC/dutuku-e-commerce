@@ -31,7 +31,7 @@ Captured on an iPhone 17 Pro Max simulator from a fresh install (demo account si
 
 ## Demo walkthrough
 
-About 5 minutes. Start from **Profile → Reset demo data** so every run shows the same data.
+About 5 minutes; start from **Profile → Reset demo data** so every run shows the same data.
 
 | # | Do | Point out |
 |---|---|---|
